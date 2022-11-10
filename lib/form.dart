@@ -226,9 +226,10 @@ class _MyFormPageState extends State<MyFormPage> {
                                                                 padding: const EdgeInsets.only(top: 20, bottom: 20),
                                                                 shrinkWrap: true,
                                                                 children: <Widget>[
-                                                                    Center(child: Text('Hello $_fullName')),
+                                                                    Center(child: Text('Hello $_fullName!')),
                                                                     const SizedBox(height: 20),
-                                                                    // TODO: Display the information obtained from the form
+                                                                    Center(child: Text('from $pdbClass')),
+                                                                    Center(child: Text('Goodluck for your study')),
                                                                     TextButton(
                                                                         onPressed: () {
                                                                             Navigator.pop(context);
